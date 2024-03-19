@@ -1,11 +1,65 @@
-h1 {color: rgb(8, 8, 8);}
+h1 {  animation: color-change 5s infinite;
+}
+h2{  animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  25% {
+    color: rgb(10, 255, 10);
+  }
+  50% {
+    color: rgb(196, 248, 8);
+  }
+  75% {
+    color: red;
+  }
+  100% {
+    color: rgb(236, 84, 14);
+  }}
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  25% {
+    color: rgb(10, 255, 10);
+  }
+  50% {
+    color: rgb(196, 248, 8);
+  }
+  75% {
+    color: red;
+  }
+  100% {
+    color: rgb(236, 84, 14);
+  }}
 body h1 {text-align: center;}
 body {
-  background-image: url("https://i.pinimg.com/originals/cb/59/e1/cb59e1a7bc188a8c1aacd2ea05622777.gif");
+  background-image: url("https://media.tenor.com/91LatDyq0AQAAAAM/vinicius13-viniboy.gif");
 }
-a{color: rgb(245, 7, 166);}
 a {
   text-decoration: none;
+  animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  25% {
+    color: rgb(10, 255, 10);
+  }
+  50% {
+    color: rgb(196, 248, 8);
+  }
+  75% {
+    color: red;
+  }
+  100% {
+    color: rgb(236, 84, 14);
+  }
 }
 iframe{
   text-align: center;
@@ -33,14 +87,6 @@ iframe{
       border-width: 5px;
       border-style: solid;
     }
-    .container-quadro {
-      background-color: rgb(18, 112, 15);
-      width: 1000px;
-      text-align: center;
-      margin: auto;
-      display: block;
-      text-decoration: none;
-    }
     li{font-size: 25px;}
     a{font-size: 25px;}
 
@@ -50,13 +96,15 @@ iframe {
 }
 }
 .container-quadro {
-  background-color: rgb(18, 112, 15);
+  background-color: rgb(65, 59, 59);
   width: 1000px;
   text-align: center;
   margin: auto;
   display: block;
-  text-decoration: none;
   opacity: 0.98;
 }
-li{font-size: 25px;}
+li{font-size: 27px;
+  color:rgb(255, 0, 0);
+text-align: left; 
+}
 a{font-size: 25px;}

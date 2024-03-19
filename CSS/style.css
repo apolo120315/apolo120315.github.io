@@ -1,8 +1,6 @@
 h1 {
     color:rgb(247, 12, 255) ;
-}
-h1{  
-  text-align: center;
+    text-align: center;
 }
 body{background-image: url(https://i.pinimg.com/originals/cb/59/e1/cb59e1a7bc188a8c1aacd2ea05622777.gif);}
 p {color: rgb(255, 0, 179);
@@ -11,9 +9,10 @@ p {color: rgb(255, 0, 179);
 a{color: aqua;}
 a {
   text-decoration: none;
+  font-size: 20px;
 }
 h2{color: rgb(255, 0, 179);
-  font-size: 25px;
+  font-size: 30px;
 }
 ul{color: rgb(0, 0, 0);
   font-size: 25px;
@@ -51,3 +50,7 @@ img {
   text-decoration: none;
   opacity: 0.98;
 }
+li{text-align: left;
+color:rgb(25, 221, 255);
+font-size: 27px;}
+p{font-size: 27px;}
