@@ -35,3 +35,13 @@ h4{
     text-align: center;
     color: #000000;
 }
+section{    
+    width: 1000px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 30px;    
+    border: 10px solid blue;
+    border-radius: 30px;
+    display: block;}
