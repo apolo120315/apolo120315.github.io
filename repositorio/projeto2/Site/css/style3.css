@@ -71,3 +71,38 @@ nav{
     display: block;
     padding: 5px;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+thead {
+
+  background-color: #1613c0;
+  color: white;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+tbody{
+  background-color: #0f88d8;
+  color: #ddd;
+}
+
+tfoot {
+
+  background-color: #0011ff;
+  color: white;
+  font-weight: bold;
+}
+
+tfoot td {
+  text-align: right;
+}
