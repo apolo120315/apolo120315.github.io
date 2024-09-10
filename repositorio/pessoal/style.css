@@ -16,15 +16,6 @@
         background-color: rgb(12, 15, 214);
         color: rgb(143, 143, 143);
         transform: scale(1.2)}
-
-nav{
-    border-radius: 10px;
-    border: 8px solid rgb(163, 163, 163);
-    text-align: center;
-    display: block;
-    padding: 5px;
-    }
-
 h1{
     text-align: center;
     color: #ffffff;
